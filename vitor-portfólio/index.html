@@ -1,0 +1,170 @@
+      }<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio Profissional - Vitor Vieira</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+      color: #222;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 900px;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+      padding: 40px 50px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      color: #2C3E50;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    header h2 {
+      font-size: 1.2rem;
+      color: #16A085;
+      font-weight: 600;
+      font-style: italic;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    section h3 {
+      font-size: 1.6rem;
+      color: #34495E;
+      border-bottom: 3px solid #16A085;
+      padding-bottom: 6px;
+      margin-bottom: 20px;
+    }
+    p, li {
+      font-size: 1rem;
+      color: #444;
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    ul.projects-list li {
+      background: #16A085;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 25px;
+      font-weight: 600;
+      cursor: default;
+      box-shadow: 0 2px 8px rgba(22,160,133,0.4);
+      transition: background-color 0.3s ease;
+      user-select: none;
+    }
+    ul.projects-list li:hover {
+      background: #13856e;
+    }
+    .contact-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .contact-list a {
+      color: #16A085;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    .contact-list a:hover {
+      color: #0f5c44;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+      margin-top: 30px;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 30px 20px;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+      section h3 {
+        font-size: 1.4rem;
+      }
+      ul.projects-list {
+        gap: 10px;
+
+      ul.projects-list li {
+        flex-grow: 1;
+        text-align: center;
+        font-size: 0.9rem;
+        padding: 8px 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container" role="main" aria-label="Portfólio profissional de Jaqueline de Souza">
+    <header>
+      <h1>Jaqueline de Souza</h1>
+      <h2>Professora de Matemática da Rede Estadual</h2>
+    </header>
+
+    <section aria-labelledby="section-summary">
+      <h3 id="section-summary">Resumo Profissional</h3>
+      <p>
+        Sou estudante da escola E.E. Astrogildo Arruda
+      </p>
+    </section>
+
+    <section aria-labelledby="section-projects">
+      <h3 id="section-projects">Projetos</h3>
+      <ul class="projects-list" role="list">
+        <li>Canvas</li>
+        <li>Matemática</li>
+        <li>Planilha</li>
+        <li>PowerPoint</li>
+        <li>Scratch MIT</li>
+        <li>Visual Studio Code</li>
+        <li>Padlet</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="section-contact">
+      <h3 id="section-contact">Contato</h3>
+      <p>Para contato, preencha com seus dados reais:</p>
+      <div class="contact-list">
+        <p>Email: <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></p>
+        <p>Telefone: <a href="tel:+550000000000">(00) 00000-0000</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/seulinkedin" target="_blank" rel="noopener noreferrer">linkedin.com/in/seulinkedin</a></p>
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2024 Jaqueline de Souza - Todos os direitos reservados.
+    </footer>
+  </div>
+</body>
+</html>
+
+
+
+
+
